@@ -3,7 +3,7 @@ import random
 import csv
 import word_shuffler
 
-alphabet = ['ا', 'ب', 'پ', 'ت', 'ث','ج', 'چ', 'ح', 'خ', 'د', 'ذ', 'ر', 'ز', 'ژ', 'س', 'ش', 'ص', 'ض', 'ط', 'ظ', 'ع', 'غ', 'ف', 'ق', 'ک', 'گ', 'ل', 'م', 'ن', 'ه', 'ی']
+alphabet = ['ا', 'ب', 'پ', 'ت', 'ث','ج', 'چ', 'ح', 'خ', 'د', 'ذ', 'ر', 'ز', 'ژ', 'س', 'ش', 'ص', 'ض', 'ط', 'ظ', 'ع', 'غ', 'ف', 'ق', 'ک', 'گ', 'ل', 'م', 'ن','و', 'ه', 'ی']
 surnames = pd.read_csv("~/personal/correct_dataset/surname_2.csv")["Names"]
 names = pd.read_csv("~/personal/correct_dataset/names.csv")["Names"]
 
