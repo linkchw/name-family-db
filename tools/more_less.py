@@ -66,37 +66,37 @@ with open("more_surname.txt", 'wt') as file:
 file.close()
 
 
-# with open("less_name.txt", 'wt') as file:
-#     for name in list(names):
-#         if count_part(name) == 1:
-#             less_word = less_letter(name)
-#             file.write(less_word + "\n")
+with open("less_name.txt", 'wt') as file:
+    for name in list(names):
+        if count_part(name) == 1:
+            less_word = less_letter(name)
+            file.write(less_word + "\n")
 
 
-#         elif count_part(name) == 2:
-#             less_word = less_letter(name[0]) + less_letter(name[1])
-#             file.write(less_word + "\n")
+        elif count_part(name) == 2:
+            less_word = less_letter(name[0]) + less_letter(name[1])
+            file.write(less_word + "\n")
 
-#         elif count_part(name) == 3:
-#             less_word = less_letter(name[0]) + less_letter(name[1]) + less_letter(name[2])
-#             file.write(less_word + "\n")
+        elif count_part(name) == 3:
+            less_word = less_letter(name[0]) + less_letter(name[1]) + less_letter(name[2])
+            file.write(less_word + "\n")
 
-# file.close()
+file.close()
 
-# # generates wrong surnames
-# with open("less_surname.txt", 'wt') as file:
-#     for surname in list(surnames):
-#         if count_part(surname) == 1:
-#             less_word = less_letter(surname)
-#             file.write(less_word + "\n")
+# generates wrong surnames
+with open("less_surname.txt", 'wt') as file:
+    for surname in list(surnames):
+        if count_part(surname) == 1:
+            less_word = less_letter(surname)
+            file.write(less_word + "\n")
 
 
-#         elif count_part(surname) == 2:
-#             less_word = less_letter(surname[0]) + less_letter(surname[1])
-#             file.write(less_word + "\n")
+        elif count_part(surname) == 2:
+            less_word = less_letter(surname[0]) + less_letter(surname[1])
+            file.write(less_word + "\n")
 
-#         elif count_part(surname) == 3:
-#             less_word = less_letter(surname[0]) + less_letter(surname[1]) + less_letter(surname[2])
-#             file.write(less_word + "\n")
+        elif count_part(surname) == 3:
+            less_word = less_letter(surname[0]) + less_letter(surname[1]) + less_letter(surname[2])
+            file.write(less_word + "\n")
 
-# file.close()
+file.close()

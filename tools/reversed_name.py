@@ -15,4 +15,3 @@ with open("reverced_name.txt", 'wt') as f:
             print(i + " " + j)
             f.write(i + " " + j + "\n")
 f.close()
-# print(sur_select[1])
